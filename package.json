@@ -1,5 +1,5 @@
 {
-  "name": "egg-typegoose",
+  "name": "@cxj/egg-typegoose",
   "version": "0.0.1",
   "description": "typegoose plugin for Egg.js.",
   "eggPlugin": {
