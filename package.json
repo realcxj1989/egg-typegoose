@@ -1,6 +1,6 @@
 {
   "name": "egg-typegoose",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "typegoose plugin for Egg.js.",
   "eggPlugin": {
     "name": "typegoose"
