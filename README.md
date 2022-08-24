@@ -27,7 +27,7 @@ Description here.
 ## Install
 
 ```bash
-$ npm i @cxj/egg-typegoose --save
+$ npm i typegoose-egg --save
 ```
 
 ## Usage
@@ -36,7 +36,7 @@ $ npm i @cxj/egg-typegoose --save
 // {app_root}/config/plugin.js
 exports.typegoose = {
   enable: true,
-  package: '@cxj/egg-typegoose',
+  package: 'typegoose-egg',
 };
 ```
 
