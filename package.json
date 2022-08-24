@@ -1,0 +1,57 @@
+{
+  "name": "egg-typegoose",
+  "version": "0.0.0",
+  "description": "typegoose plugin for Egg.js.",
+  "eggPlugin": {
+    "name": "typegoose"
+  },
+  "keywords": [
+    "egg",
+    "eggPlugin",
+    "egg-plugin"
+  ],
+  "dependencies": {
+    "@typegoose/typegoose": "^9.9.0",
+    "@types/prettier": "^2.6.3",
+    "fs-jetpack": "^4.3.1",
+    "mongoose": "^6.4.1",
+    "np": "^7.6.2",
+    "prettier": "^2.7.1"
+  },
+  "devDependencies": {
+    "autod": "^3.0.1",
+    "autod-egg": "^1.1.0",
+    "egg": "^2.16.0",
+    "egg-bin": "^4.11.0",
+    "egg-ci": "^1.11.0",
+    "egg-mock": "^3.21.0",
+    "eslint": "^5.13.0",
+    "eslint-config-egg": "^7.1.0"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "scripts": {
+    "tsc": "tsc -p tsconfig.json",
+    "release": "standard-version"
+  },
+  "files": [
+    "app.js",
+    "agent.js",
+    "config",
+    "app"
+  ],
+  "ci": {
+    "version": "8, 10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/realcxj1989/egg-typegoose.git"
+  },
+  "bugs": {
+    "url": "https://github.com/realcxj1989/egg-typegoose/issues"
+  },
+  "homepage": "https://github.com/realcxj1989/egg-typegoose#readme",
+  "author": "realcxj1989",
+  "license": "MIT"
+}
